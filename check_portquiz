@@ -1,5 +1,6 @@
 #!/bin/bash
-for i in {1000..6000}
+for i in {1..100}
 do
-   curl portquiz.net:$i 
+   echo $i
+   curl 5.196.70.86:$i 2>/dev/null
 done
