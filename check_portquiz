@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {1000..6000}
+do
+   curl portquiz.net:$i 
+done
